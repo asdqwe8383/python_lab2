@@ -199,8 +199,8 @@ plt.grid(True)
 
 
 plt.tight_layout()
+print(time.time() - start_time, "seconds")
 plt.show()
 
 
 print("\nПрограмма успешно завершена.")
-print(time.time() - start_time, "seconds")
